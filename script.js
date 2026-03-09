@@ -41,9 +41,6 @@ var locations = [
             src: "Bilder/Stuttgart.tif",
             caption: "Das Bild zeigt den Stuttgarter Justizpalast im Jahr 1909, aufgenommen aus der Vogelschau. Es stammt aus der Sammlung der Gebrüder Metz, diese befindet sich im Haus der Geschichte Baden-Württemberg. Signatur: HdG 1991/0140/036944"
         },
-        {
-            src: "",
-        },
     ],
     table: `
         <table class="popup-table">
