@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#uni-map {
+    height: 100vh;   /* volle Bildschirmhöhe */
+    width: 100%;
+}
+
+/* Popup Layout */
+.popup-content {
+    max-height: 350px;
+    overflow-y: auto;
+    padding-right: 4px;
+}
+
+.popup-content h3 {
+    margin: 0 0 6px 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.popup-description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.popup-description2 {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.leaflet-popup-content-wrapper {
+    width: 500px;
+}
+
+/* Tabelle */
+.popup-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.popup-table caption {
+    caption-side: top;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.popup-table th {
+    text-align: left;
+    padding: 6px 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.popup-table td {
+    padding: 6px 8px;
+    vertical-align: top;
+}
+
+.popup-table tr:not(:last-child) td {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.popup-image-block {
+    margin-bottom: 30px;   /* größerer Abstand */
+}
+
+.popup-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.image-caption {
+    font-size: 12px;
+    color: #555;
+    margin: 4px 0 10px 0;
+    font-style: italic;  /* <-- hier wird der Text kursiv */
+}
+/* Overlay-Hintergrund */
+.image-overlay {
+    display: none;              /* erst unsichtbar */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.85);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+/* Großes Bild */
+.image-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Cursor ändern */
+.popup-image {
+    cursor: pointer;
+}
+
+.legend {
+    background: white;
+    padding: 10px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+
+.legend h4 {
+    margin: 0 0 6px 0;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.legend-circle {
+    display: inline-block;
+    border-radius: 50%;
+    background: black;
+    margin-right: 8px;
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 2px;
+}
