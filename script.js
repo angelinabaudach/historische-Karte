@@ -135,11 +135,29 @@ var locations = [
   ],
 },
 {
-  name: "Heil- und Pflegeanstalt Hub",
+  name: "Pflegeanstalt der Kreise Karlsruhe und Baden-Baden für körperlich und geistig Gebrechliche, Kreispflegeheim Hub",
   coords: [48.66546, 8.13488],
   value: 95,
+  description: [
+    "Gegründet wurde die Anstalt im Jahr 1874 mit einer Männer- und Frauen Abteilung. Es gab keine zentrale Anstalt, sondern man arbeitete in mehreren Häusern wie zum Beispiel dem sogenannten Weinbrennerhaus oder dem Aspichhof, der im Jahr 1902 dazugekauft wurde. Das Konzept, mehrere Gebäude zu einer funktionellen Einheit zusammenzufassen, konnte auch zum Beispiel in der Illenau wiederfinden. Den Gebäuden wurden unterschiedliche Funktionen zugeordnet, so befanden sich unter anderem in den Häusern auch Wohnungen für Angestellte und eine Kirche, in der neben den Gottesdiensten ebenso Konzerte gegeben wurden.",
+    "Im Jahr 1882 befanden sich bereits 500 Erkrankte, aufgeteilt in 301 Männer und 199 Frauen zur Behandlung in der Hub. Die zeitgenössischen Diagnosen lauteten damals zum Beispiel „Idiotie“, Epilepsie mit oder ohne „Schwachsinn“, einige Menschen litten an körperlichen Gebrechen. Das Therapiekonzept mutete, ähnlich der Illenau recht modern an: man bot den Pfleglingen allerlei Therapie- und Unterhaltungsmöglichkeiten wie zum Beispiel eine Theatergruppe oder die Möglichkeit, in Chören gemeinsam zu singen.",
+    "Der Anstalts-Leiter während der NS-Zeit war Dr. Otto Gerke (1878-1943). Er trat 1937 der NSDAP bei und unterstützte die T4 Aktion von Beginn an. Gerke war überzeugter Nationalsozialist und hielt Lichtbildvorträge über Erbkrankheiten, er befürwortete die Unfruchtbarmachung von „unwertem Leben“. Gerke sah ebenfalls die Notwendigkeit, anfallende Kosten für Erkrankte zu reduzieren, da sie seiner und der zu dieser Zeit vorherrschenden Meinung aufgrund ihrer Erkrankungen der öffentlichen Fürsorge zur Last fielen.",
+    "Zwischen dem 9. Februar 1940 und dem 28. Februar 1941 wurden 526 Patient*innen im Rahmen des Euthanasie-Programms in Grafeneck ermordet. Insgesamt 11 Transporte brachten die Menschen in die Tötungsanstalt.",
+    "Ab 1940 wurde die Hub zur Lungenheilanstalt umfunktioniert. Im Jahr 1990 errichtete man auf Initiative eines Politikers einen Gedenkstein auf dem Anstaltsfriedhof."
+  ],
   images: [
-    { src: "Bilder/Hub.jpeg"}
+    {
+        src: "Bilder/Hub.jpg",
+        caption: "Das Bild zeigt einen Teil der Hub, das Männerhaus im sogenannten Weinbrennerbau von der Parkseite aus gesehen. Es wurde im Jahr 1909 aufgenommen. Quelle: Kreisarchiv Rastatt",
+    },
+    { src: "Bilder/Hub.jpeg"},
+  ],
+  description2: [
+    "Quellen:",
+    "https://www.klinikum-mittelbaden.de/wp-content/uploads/2022/03/Hub_hist_Rundgang_gilt.pdf",
+    "https://www.google.de/books/edition/Die_Heil_und_Pflegeanstalten_für_Psychi/EfVo4MKvYRUC?hl=de&gbpv=1&dq=Die+Hub.+Pflegeanstalt&pg=PA78&printsec=frontcover",
+    "Metzinger Adabert: Der Weg in den Tod: Von der Hub nach Grafeneck. In: Die Hub. Geschichte und Gegenwart einer einzigartigen Einrichtung. Casimir Katz Verlag 2012",
+    "Rapp Herbert: Das Kreispflegeheim – Historische Entwicklung seit 1874. In: Die Hub. Geschichte und Gegenwart einer einzigartigen Einrichtung. Casimir Katz Verlag 2012"
   ],
 },
 {
@@ -197,9 +215,22 @@ var locations = [
   name: "Heil- und Pflegeanstalt Weinheim",
   coords: [49.55016, 8.67194],
   value: 81,
+  description: 
+  "hhh",
   images: [
     { src: "Bilder/Weinheim.jpeg"}
   ],
+},
+{
+    name: "Landesarbeitshaus Kislau",
+    coords: [49.21731, 8.64454],
+    value: 13,
+    description: 
+    "Das Arbeitshaus Kislau im heutigen Landkreis Karlsruhe wurde 1882 gegründet und bestand bis 1945. Arbeitshäuser gab es zu der Zeit vielerorts. In ihnen wurden „Asoziale“, beispielsweise Bettler, Landstreicher oder Prostituierte bis zu zwei Jahren interniert. In den Arbeitshäusern sollten sie durch Arbeit an ein sogenanntes geordnetes Leben gewöhnt werden und sich in die Gesellschaft eingliedern.  Während des Nationalsozialismus wurden die Disziplinarmaßnahmen gegen die Insassen des Arbeitshauses Kislau verstärkt. Mehrere der dortigen Inhaftierten waren in dieser Zeit von Zwangssterilisationen betroffen.",
+    images: [
+        {src: ""}
+    ],
+    markerColor: "#C77C26",
 }
 ];
 
@@ -299,7 +330,7 @@ legend.onAdd = function(map) {
     var div = L.DomUtil.create("div", "legend");
 
     // -------- Markergröße --------
-    var values = [19, 45, 108];
+    var values = [13, 45, 108];
 
     div.innerHTML += "<h4>Zahl der Einlieferungen</h4>";
 
@@ -326,6 +357,10 @@ legend.onAdd = function(map) {
         <div class="legend-item">
             <span class="legend-color" style="background:#ff0000;"></span>
             Hinrichtungsstätten
+        </div>
+        <div class="legend-item">
+            <span class="legend-color" style="background:#c77c26;"></span>
+            Arbeitshäuser
         </div>
     `;
 
