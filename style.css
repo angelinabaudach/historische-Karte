@@ -18,12 +18,14 @@ html, body {
     max-height: 350px;
     overflow-y: auto;
     padding-right: 4px;
+    word-break: break-word;
 }
 
 .popup-content h3 {
     margin: 0 0 6px 0;
     font-size: 15px;
     font-weight: 600;
+    word-break: break-word;
 }
 
 .popup-description {
@@ -40,13 +42,16 @@ html, body {
     color: #333;
 }
 
-.leaflet-popup-content-wrapper {
-    width: 500px;
+.leaflet-popup-content {
+    width: min(550px, 90vw);
+    max-width: 100%;
+    overflow-wrap: break-word;
 }
 
 /* Tabelle */
 .popup-table {
     width: 100%;
+    table-layout: fixed;
     border-collapse: collapse;
     font-size: 13px;
 }
@@ -67,6 +72,7 @@ html, body {
 .popup-table td {
     padding: 6px 8px;
     vertical-align: top;
+    word-break: break-word;
 }
 
 .popup-table tr:not(:last-child) td {
@@ -78,7 +84,7 @@ html, body {
 }
 
 .popup-image {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     margin-bottom: 2px;
     cursor: pointer;

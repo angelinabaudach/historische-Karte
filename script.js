@@ -150,7 +150,9 @@ var locations = [
         src: "Bilder/Hub.jpg",
         caption: "Das Bild zeigt einen Teil der Hub, das Männerhaus im sogenannten Weinbrennerbau von der Parkseite aus gesehen. Es wurde im Jahr 1909 aufgenommen. Quelle: Kreisarchiv Rastatt",
     },
-    { src: "Bilder/Hub.jpeg"},
+    { 
+        src: "Bilder/Hub.jpeg",
+    },
   ],
   description2: [
     "Quellen:",
@@ -301,8 +303,7 @@ locations.forEach(function(location) {
     L.circleMarker(location.coords, markerStyle)
         .addTo(map)
         .bindPopup(popupContent, {
-    maxWidth: 450,
-    minWidth: 350
+    maxWidth: 550
 })
     .bindTooltip("Zahl der Einlieferungen: " + location.value);
 });
