@@ -62,6 +62,7 @@ var locations = [
             <tr><td><strong><time datetime="1944-06-07">07.06.1944</time></strong></td><td>Friedrich Wohlfahrt, Franz Sulzmann, Heinrich Sauter, Jakob Burger, Engelbert Rühl, Hugo Thomas, Karl Pfundt, Elfriede Grünewald, Eva Arnold</td></tr>
         </table>
     `,
+    chartData: [0, 0, 0, 0, 1, 0, 2, 0, 0, 21, 60, 24],
     description2: [
         "Quellen:",
         "Müller, Sabrina: Hinrichtungen im Stuttgarter Justizgebäude 1933-1944, in: NS-Justiz in Stuttgart, Katalog zur Dauerausstellung des Hauses der Geschichte Baden-Württemberg im Landgericht Stuttgart, 2019.",
@@ -97,13 +98,27 @@ var locations = [
         </table>
      `,
     images: [
-        { src: "Bilder/Bruchsal_Psycha.jpg", caption: "Das Foto stammt aus dem Jahr 1969 und zeigt die U-förmige Psycha inmitten der sie umgebenden Mauern. Die von oben nach unten verlaufenden Straße rechts davon ist die Seilersbahn. In dem kleinen randständigen Gebäude mit Schornstein, direkt an der Mauer im mittleren Bildteil, befand sich der „Hinrichtungsschuppen“."}
+        { 
+            src: "Bilder/Bruchsal_Psycha.jpg", 
+            caption: "Das Foto stammt aus dem Jahr 1969 und zeigt die U-förmige Psycha inmitten der sie umgebenden Mauern. Die von oben nach unten verlaufenden Straße rechts davon ist die Seilersbahn. In dem kleinen randständigen Gebäude mit Schornstein, direkt an der Mauer im mittleren Bildteil, befand sich der „Hinrichtungsschuppen“. Quelle: Seilersbahn: unsigniert, Stadtarchiv Bruchsal"
+        },
+        {
+            src: "Bilder/Psycha.jpeg",
+            caption: "Das Foto zeigt die ehemalige psychiatrische Anstalt von außen. Aufgenommen wurde es in den 1920er Jahren. Quelle: Fotoalbum aus dem Strafvollzugsmuseum Ludwigsburg",
+        },
+        {
+            src: "Bilder/Altes-Zuchthaus.jpg",
+            caption: "Hier wurde die Guillotine verwahrt. Quelle: Strafvollzugsmuseum, aufgenommen im frühen 20. Jahrhundert ",
+        },
+        {
+            src: "Bilder/Bruchsal.jpg",
+            caption: "Quelle: Strafvollzugsmuseum Ludwigsburg",
+        },
     ],
     description2: [
         "Quellen:",
         "Kaufmann, Rainer: Seilersbahn. Ein Weg Geschichte. Verlag Heimat- und Volkskunde/Ubstadt, 1989.",
         "Müller, Sabrina: Hinrichtungen im Stuttgarter Justizgebäude 1933-1944, in: NS-Justiz in Stuttgart, Katalog zur Dauerausstellung des Hauses der Geschichte Baden-Württemberg im Landgericht Stuttgart, 2019.",
-        "Foto: Seilersbahn: unsigniert, Stadtarchiv Bruchsal"
     ],
     imageBeforeTable: true,
      markerColor: "#ff0000" // Rot,
@@ -119,8 +134,9 @@ var locations = [
         "Ab 1940 wurden, wie in anderen Anstalten auch, viele Patient*innen verlegt, um sie zum Beispiel in Konzentrationslager wie Hadamar zu verbringen. Ab diesem Zeitpunkt sollten hingerichtete Personen die größte Zahl der eingelieferten Verstorbenen darstellen und nicht mehr die Menschen aus den Anstalten.",
     ],
     images: [
-        { src: "Bilder/Wiesloch.jpeg"}
+        { src: ""}
     ],
+    chartData: [5, 11, 15, 12, 5, 11, 9, 12, 14, 7, 0, 2],
     description2: [
         "Quelle:",
         "https://www.pzn-wiesloch.de/fileadmin/user_upload/psychiatrisches-zentrum-nordbaden/Dokumente_PDFe/Geschichte/Schriftenreihe_AK_NS_Heft_1.pdf",
@@ -131,8 +147,9 @@ var locations = [
   coords: [48.36375, 8.01884],
   value: 37,
   images: [
-    { src: "Bilder/Fußbach.jpeg"}
+    { src: ""}
   ],
+  chartData: [13, 6, 2, 2, 0, 1, 2, 11, 0, 0, 0]
 },
 {
   name: "Pflegeanstalt der Kreise Karlsruhe und Baden-Baden für körperlich und geistig Gebrechliche, Kreispflegeheim Hub",
@@ -151,9 +168,12 @@ var locations = [
         caption: "Das Bild zeigt einen Teil der Hub, das Männerhaus im sogenannten Weinbrennerbau von der Parkseite aus gesehen. Es wurde im Jahr 1909 aufgenommen. Quelle: Kreisarchiv Rastatt",
     },
     { 
-        src: "Bilder/Hub.jpeg",
+        src: "",
     },
   ],
+
+  chartData: [12, 20, 22, 15, 1, 3, 7, 10, 5, 0, 0, 0],
+
   description2: [
     "Quellen:",
     "https://www.klinikum-mittelbaden.de/wp-content/uploads/2022/03/Hub_hist_Rundgang_gilt.pdf",
@@ -175,11 +195,8 @@ var locations = [
     {
         src: "Bilder/Blick-auf-die-Illenau.jpg",
         caption: "Mit freundlicher Genehmigung der Stadt Achern, Fotograf Benedikt Spether"
-    },
-    {
-        src: "Bilder/Illenau.jpeg",
-    },
-    ],
+    }],
+    chartData: [5, 5, 2, 2, 1, 0, 5, 3, 0, 0, 0, 0],
   description2: [
     "Quellen:",
     "https://www2.landesarchiv-bw.de/ofs21/olf/einfueh.php?bestand=7777",
@@ -194,15 +211,17 @@ var locations = [
   coords: [49.38746, 9.63527],
   value: 19,
   images: [
-    { src: "Bilder/Krautheim.jpeg"}
+    { src: ""}
   ],
+  chartData: [3, 4, 2, 1, 0, 0, 2, 3, 4, 0, 0, 0]
 },
 {
   name: "Heil- und Pflegeanstalt Rastatt",
   coords: [48.84992, 8.20985],
   value: 22,
+  chartData: [0, 2, 2, 6, 4, 5, 3, 0, 0, 0, 0, 0],
   images: [
-    { src: "Bilder/Rastatt.jpeg"}
+    { src: ""}
   ],
 },
 {
@@ -210,8 +229,9 @@ var locations = [
   coords: [49.25416, 8.87942],
   value: 23,
   images: [
-    { src: "Bilder/Sinsheim.jpeg"}
+    { src: ""}
   ],
+  chartData: [1, 5, 3, 8, 0, 5, 1, 0, 0, 0, 0, 0]
 },
 {
   name: "Heil- und Pflegeanstalt Weinheim",
@@ -220,17 +240,31 @@ var locations = [
   description: 
   "hhh",
   images: [
-    { src: "Bilder/Weinheim.jpeg"}
+    { src: ""}
   ],
+  chartData: [4, 3, 13, 7, 9, 13, 10, 14, 7, 1, 0, 0]
 },
 {
     name: "Landesarbeitshaus Kislau",
     coords: [49.21731, 8.64454],
     value: 13,
-    description: 
-    "Das Arbeitshaus Kislau im heutigen Landkreis Karlsruhe wurde 1882 gegründet und bestand bis 1945. Arbeitshäuser gab es zu der Zeit vielerorts. In ihnen wurden „Asoziale“, beispielsweise Bettler, Landstreicher oder Prostituierte bis zu zwei Jahren interniert. In den Arbeitshäusern sollten sie durch Arbeit an ein sogenanntes geordnetes Leben gewöhnt werden und sich in die Gesellschaft eingliedern.  Während des Nationalsozialismus wurden die Disziplinarmaßnahmen gegen die Insassen des Arbeitshauses Kislau verstärkt. Mehrere der dortigen Inhaftierten waren in dieser Zeit von Zwangssterilisationen betroffen.",
+    description: [
+    "Im Schloss Kislau im heutigen Landkreis Karlsruhe befanden sich mehrere Orte nationalsozialistischer Verfolgung. Neben dem Arbeitshaus waren dort von 1933 bis 1939 ein Konzentrationslager und ab 1939 ein Strafgefängnis. Auch ein Durchgangslager für Fremdenlegionäre befand sich von 1934 bis 1939 in dem Schloss. Das Konzentrationslager und das Arbeitshaus waren formal getrennt, trotzdem kam es aber zu Kontakten unter den Insassen.",
+    "Das Arbeitshaus Kislau wurde 1882 gegründet und bestand bis 1945. Arbeitshäuser gab es zu der Zeit vielerorts. In ihnen wurden nicht erwerbstätige Menschen bis zu zwei Jahren interniert. Sie sollten durch Arbeit an ein „geordnetes“ Leben gewöhnt werden und sich in die Gesellschaft eingliedern. Im Nationalsozialismus wurden in den Arbeitshäusern Personen inhaftiert, die als „asozial“ oder „arbeitsscheu“ stigmatisiert wurden. Die meisten Insassen im Arbeitshaus Kislau waren Bettler und Landstreicher. Frauen wurden nicht aufgenommen. Vor der Einweisung in das Arbeitshaus wurden die verurteilten Personen ärztlich auf ihre Arbeitsfähigkeit untersucht. Trotzdem kam es immer wieder vor, dass kranke und pflegebedürftige Personen in das Arbeitshaus gelangten. Die Insassen mussten täglich bis zu zehn Stunden in anstaltsinternen Betrieben oder bei externen Firmen und Höfen arbeiten. Im Arbeitshaus selbst arbeiteten sie beispielsweise in der Schusterei, der Schlosserei oder der Landwirtschaft. Die Insassen erhielten für ihre Arbeit einen äußerst geringen Lohn.",
+    "Während des Nationalsozialismus wurde das Personal des Arbeitshauses vollständig ausgetauscht und die Hausordnung erweitert. Auf Verstöße gegen sie wurde mit Disziplinarstrafen wie Verminderung der Essensportionen, Arrest oder Entzug des Bettes reagiert.",
+    "Auf Grundlage des „Gesetztes zur Verhütung erbkranken Nachwuchses“ wurden mehrere Insassen des Arbeitshauses Kislau Opfer von Zwangssterilisationen.",
+    "Gegen Ende der 1930er-Jahre verloren die Arbeitshäuser an Bedeutung, da als „asozial“ verfolgte Personen nun eher in Konzentrationslagern inhaftiert wurden.",
+    ],
     images: [
-        {src: ""}
+        {
+            src: "Bilder/Kislau.jpeg",
+            caption: "'Ehemaliges Wasserschloss später Sommersitz der Fürstbischöfe von Speyer'. Die Aufnahme stammt aus den 1920er Jahren. Quelle: Fotoalbum aus dem Strafvollzugsmuseum Ludwigsburg",
+        }
+    ],
+    chartData: [0, 0, 2, 0, 1, 0, 0, 0, 1, 2, 3, 4],
+    description2: [
+        "Quelle:",
+        "Hankeln, Laura: Interniert in Kislau. Ausgrenzung und Verfolgung von Bettlern und Landstreichern im nordbadischen Arbeitshaus (1930–1938). In: Zeitschrift für die Geschichte des Oberrheins 167 (2019), S. 337–390.",
     ],
     markerColor: "#C77C26",
 }
@@ -281,6 +315,10 @@ locations.forEach(function(location) {
         : ""
     }
 
+    ${location.chartData ? `
+    <canvas id="chart-${location.name.replace(/\s+/g, '-')}"></canvas>
+    ` : ""}
+
     ${location.description2
         ? Array.isArray(location.description2)
             ? location.description2.map(p => `<p class="popup-description2">${p}</p>`).join("")
@@ -303,9 +341,59 @@ locations.forEach(function(location) {
     L.circleMarker(location.coords, markerStyle)
         .addTo(map)
         .bindPopup(popupContent, {
-    maxWidth: 550
-})
-    .bindTooltip("Zahl der Einlieferungen: " + location.value);
+            maxWidth: 550,
+            minWidth: 400
+        })
+        .bindTooltip("Zahl der Einlieferungen: " + location.value, {
+            dircetion: "top",
+            offset: [0, -10]
+        });
+
+var marker = L.circleMarker(location.coords, markerStyle)
+    .addTo(map)
+    .bindPopup(popupContent, {
+            maxWidth: 550,
+            minWidth: 400
+        })
+        .bindTooltip("Zahl der Einlieferungen: " + location.value);
+
+marker.on('popupopen', function () {
+
+    if (!location.chartData) return;
+
+    var chartId = `chart-${location.name.replace(/\s+/g, '-')}`;
+    var canvas = document.getElementById(chartId);
+
+    if (!canvas) return;
+
+    if (!canvas.dataset.chartCreated) {
+        var ctx = canvas.getContext('2d');
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['1933', '1934', '1935', '1936', '1937', '1938', '1939', '1940', '1941', '1942', '1943', '1944'],
+                datasets: [{
+                    label: "Zahl der Einlieferungen",
+                    data: location.chartData
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            stepSize: 1
+                        }
+                    }
+                }
+            }
+        });
+        canvas.dataset.chartCreated = true;
+    }
+});
 });
 // Overlay-Elemente holen
 var overlay = document.getElementById("imageOverlay");
