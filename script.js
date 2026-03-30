@@ -234,15 +234,30 @@ var locations = [
   chartData: [1, 5, 3, 8, 0, 5, 1, 0, 0, 0, 0, 0]
 },
 {
-  name: "Heil- und Pflegeanstalt Weinheim",
+  name: "Kreispflegeheim Weinheim",
   coords: [49.55016, 8.67194],
   value: 81,
-  description: 
-  "hhh",
-  images: [
-    { src: ""}
+  description: [
+    "Die Pflegeanstalt in Weinheim wurde am 1. November 1885 eröffnet. Mit insgesamt 200 Plätzen wurde sie eine wichtige Institution zur Fürsorge von geistig und körperlich beeinträchtigten Menschen aus der Region. In den Anstaltsstatuten wurde definiert, dass zum Beispiel Menschen mit Depressionen, an Epilepsie leidende, „missgestaltete“ und hilflose Personen aufgenommen werden konnten. Hier wohnten Menschen, deren Pflege im öffentlichen Interesse stand – zum Beispiel aus Kosten- oder Altersgründen und die eine besondere Pflege bedurften. Einige Patient*innen wurden aus dem Heidelberger Klinikum und der Wieslocher Anstalt nach Weinheim verlegt, wenn es wenig Aussicht auf eine Besserung gab.",
+    "Bis zum Ersten Weltkrieg befanden sich ungefähr 250 Menschen in der Anstalt, die Anfang des 20. Jahrhunderts durch einen Anbau eine Erweiterung erfuhr. Neben dem Verwalter betreuten zumeist ungelernte Kräfte die Patient*innen, mehrmals in der Woche kam zusätzlich ein Arzt ins Haus. Die Behandlung kann sicher, wie oft in dieser Zeit, eher als ungenügend und wenig individualisiert betrachtet werden. Trotzdem gab es die Möglichkeit zu Tätigkeiten; Männer beschäftigte man mit landwirtschaftlichen Arbeiten oder im Gartenbau und Frauen handarbeiteten oder arbeiteten im Gemüsegarten der Anstalt.",
+    "Während des Ersten Weltkriegs wurde die Ernährungslage als mangelhaft angesehen, dies schlug sich auch in der Zahl der vorhandenen Patient*innen nieder; die Sterberate stieg an. Im Rahmen der Rassenideologie während der NS-Zeit wurden bereits seit Januar 1934 die ersten Zwangssterilisationen durchgeführt. Die Anträge dafür wurden an das Erbgesundheitsgericht Mannheim gestellt, dort wurden die meisten Eingriffe im Städtischen Klinikum durchgeführt.",
+    "Im Februar 1939 erhielt die Kreispflegeanstalt ein Schreiben aus Karlsruhe. Dies wies die Anstalt an, dass die Anstalt im Ernstfall zu räumen sei, denn es sollte als ein Lazarett für verwundete Soldaten fungieren. Ungefähr ein halbes Jahr später wurden viele Patient*innen nach Hause entlassen, Selbstversorger durften bleiben, ein Großteil verlegte man in ein ehemaliges Kloster in der Nähe von Lauda in der Nähe von Würzburg. Da das Gebäude doch nicht in ein Lazarett umgewandelt wurde, kamen die Patien*innen kurze Zeit später zurück. Im Jahr 1940 wurden einige Personen aus den Anstalten Wiesloch, Hub und Sinsheim in Weinheim aufgenommen. Ab Oktober 1940 begann man im Rahmen der T 4 Aktion, die ersten Menschen in die Tötungsanstalten nach Grafeneck und später nach Hadamar zu transportieren.",
   ],
-  chartData: [4, 3, 13, 7, 9, 13, 10, 14, 7, 1, 0, 0]
+  images: [
+    { 
+        src: "Bilder/16972_KreisPflegeAnstalt_AK_VerlagFranzSchaeffner_um1940_600dpi.jpg",
+        caption: "Zu sehen ist die Kreispflegeanstalt Weinheim um 1940. Quelle: Stadtarchiv Weinheim, Rep. 32 Nr. 16972",
+    },
+    {
+        src: "Bilder/30030_Kreis_Pflege_Anstalt_Weinheim_AK_Verlag_FranzSchaeffner_um1925_600dpi.jpg",
+        caption: "Das Bild zeigt die Kreispflegeanstalt Weinheim um 1925. Quelle: Stadtarchiv Weinheim, Rep. 32 Nr. 30030",
+    },
+  ],
+  chartData: [4, 3, 13, 7, 9, 13, 10, 14, 7, 1, 0, 0],
+  description2: [
+    "Quelle:",
+    "Berger, Marie-Laura: Das Kreispflegeheim Weinheim im Nationalsozialismus. Dissertation, Heidelberg, 2011",
+  ],
 },
 {
     name: "Landesarbeitshaus Kislau",
