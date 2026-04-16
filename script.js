@@ -143,13 +143,23 @@ var locations = [
     ],
     },
 {
-  name: "Heil- und Pflegeanstalt Fußbach",
+  name: "Kreispflegeanstalt Fußbach",
   coords: [48.36375, 8.01884],
   value: 37,
+  description: [
+    "Die Errichtung der im Schwarzwald liegenden Anstalt wurde im November 1873 beschlossen, im Juli 1874 eröffnete man diese in bereits vorhandenen Gebäuden mit insgesamt 15 Pfleglingen. Sie war damit die dritte Anstalt dieser Art in Baden. Die anfängliche Verwaltung übernahm der Altbürgermeister mit dem Anstaltsarzt Dr. Bernhard Tritschler. Die Zahl der zu Pflegenden nahm stetig zu, so dass man schon 1876 mit einem Neubau die Kapazitäten erweiterte. Im Jahr 1878 gab es bereits 158 Pfleglinge. Es wurden, wie in anderen Anstalten auch, Arbeitshäuser errichtet, es gab ein Ökonomiegebäude, ein Bethaus und neben Acker- und Weideland auch eine Badeanstalt. Ein Teil der Personen half bei den täglichen Arbeiten in der Küche oder beim Waschen, es wurde aber auch angeboten, damals gängige Handwerksberufe wie Schuhmacher, Korbmacher oder Schneider zu erlernen. Kurz vor der Jahrhundertwende befanden sich 217 männliche aber auch weibliche Pfleglinge in der Anstalt. Zu diesem Zeitpunkt gab es auch verbesserte hygienische Möglichkeiten; es wurde ein Desinfektionsapparat eingeführt, die Wasserqualität und die Zuleitungsrohre kontrollierte man regelhaft. Im Jahr 1910 gab es entscheidende bauliche Verbesserungen mit dem Neubau eines Verwaltungsgebäudes. Im Verlaufe des Ersten Weltkriegs gingen die Belegungszahlen zurück, jedoch nicht so drastisch wie in anderen Anstalten, denn in Fußbach gab es Ackerland und die Möglichkeit zur Selbstversorgung.",
+    "In den 1920er Jahren wurden zur Unterstützung in Pflege und Betreuung Schwestern vom Heiligen Kreuz angefordert. Durch stetig wachsende Zahlen an Patient*innen sah man sich genötigt, einen weiteren Anbau zu beantragen, diesen eröffnete man im Jahr 1929. In der 1930er Jahren verzeichnete man schließlich 364 Pfleglinge.",
+    "Während der NS-Zeit wechselte der Respizient und August Schili, seit 1930 linientreues NSDAP Mitglied, wurde in Fußbach Kontrolleur der Verwaltungsangelegenheiten. Das seit Juli 1933 geltende Gesetz „zu Verhütung erbkranken Nachwuchses“ wurde auch in der Anstalt beachtet. Umgesetzt wurde es, in Zusammenarbeit mit dem Bezirksarzt, von Anstaltsarzt Dr. Unger. Nach einem Bericht aus dem Juli des Jahres 1945 betraf das von ursprünglich 143 infrage kommenden Personen zwanzig Männer und drei Frauen. Ab dem 9. Oktober 1939 wurden -wie in anderen Anstalten auch- die kranken Pfleglinge schriftlich erfasst und am 13. Juni 1940 wurden 75 Frauen ohne Angabe eines Zielortes verlegt. Nachdem einige Todesnachrichten die Schwestern erreichten, wurden diese misstrauisch und rieten den Verwandten der noch in Fußbach lebenden Pfleglingen, diese wieder daheim aufzunehmen. Es wurden für solche Tage, an denen weitere Deportationen geplant waren, Ausflüge geplant um mögliche Abholungen zu verhindern oder stufte Patient*innen als volkswirtschaftlich wichtig ein, um die Tötungsaktionen aktiv zu boykottieren. August Schili unterstützte hier die Schwestern, weigerte sich Personen herauszugeben und verhandelte mit den Transportführern, so dass schließlich immer weniger Personen abtransportiert und so dem sichern Tod im Rahmen der T 4 Aktionen entgegengeführt wurden.",
+    "Im Jahr 1953 wurde der Name in „Kreispflegeanstalt“, später in „Kreispflegeheim Bermersbach“ geändert, seit 1996 trägt es den Namen „Pflege- und Betreuungsheim Ortenau“.",
+  ],
   images: [
     { src: ""}
   ],
-  chartData: [13, 6, 2, 2, 0, 1, 2, 11, 0, 0, 0]
+  chartData: [13, 6, 2, 2, 0, 1, 2, 11, 0, 0, 0],
+  description2: [
+    "Quelle:",
+    "Wöhrle, Tobias. Zur Geschichte der ehemaligen Kreispflegeanstalt Fußbach, in: Die Ortenau. Veröffentlichungen des Historischen Vereins für Mittelbaden, 79. Jahresband, S.602-616, 1999.",
+  ],
 },
 {
   name: "Pflegeanstalt der Kreise Karlsruhe und Baden-Baden für körperlich und geistig Gebrechliche, Kreispflegeheim Hub",
@@ -193,8 +203,12 @@ var locations = [
   ],
   images: [
     {
+        src: "Bilder/StA S-A 8 Hoffer_Haupthof und Tor, 1932[6].jpg",
+        caption: "Zu sehen sind Haupthof und Tor der Badischen Heil- und Pflegeanstalt Illenau im Jahr 1932. Quelle: StA S-A 8 Hoffer",
+    },
+    {
         src: "Bilder/Blick-auf-die-Illenau.jpg",
-        caption: "Mit freundlicher Genehmigung der Stadt Achern, Fotograf Benedikt Spether"
+        caption: "Mit freundlicher Genehmigung der Stadt Achern, Fotograf Benedikt Spether",
     }],
     chartData: [5, 5, 2, 2, 1, 0, 5, 3, 0, 0, 0, 0],
   description2: [
@@ -210,18 +224,42 @@ var locations = [
   name: "Kreispflegeanstalt Krautheim",
   coords: [49.38746, 9.63527],
   value: 19,
+  description: [
+    "Die Kreispflegeanstalt Krautheim wurde 1875 als Landarmenanstalt des Kreises Mosbach gegründet. Sie diente der Aufnahme und Versorgung von Armen sowie geistig und körperlich Gebrechlichen. 1920 übernahmen die Schwestern des St. Josefs-Ordens aus St. Trudpert im Schwarzwald die pflegerische Betreuung der Anstaltsbewohner. Die administrative Zuständigkeit ging 1939 auf den neu entstandenen Landkreis Buchen über. Seit 1973 gehört die Stadt Krautheim zum Hohenlohekreis.",
+    "Ausgehend von einem Erlass des württembergischen Innenministers wurde im Oktober 1940 eine Namensliste mit 50 Pfleglingen erstellt, die im Rahmen der „Euthanasie“-Aktion „T 4“ für den Abtransport in die Tötungsanstalt Grafeneck vorgesehen waren. Am 17. Oktober 1940 wurden die 17 Männer und 33 Frauen von zwei Omnibussen abgeholt und 46 von ihnen direkt nach ihrer Ankunft in Grafeneck noch an demselben Tag vergast. Vier Anstaltsbewohner wurden zunächst zurückgestellt und in die Anstalt Zwiefalten verbracht, wo eine schwerkranke Frau nach wenigen Tagen verstarb. Zwei weitere Personen wurden am 8. November nach Grafeneck zurück transportiert und dort ermordet. Die vierte Person starb 1943 in Zwiefalten.",
+    "Am 6. und 7. März sowie am 28. April 1941 erfolgte die Verlegung von weiteren sechs Pfleglingen aus Krautheim in die Anstalt Wiesloch. Fünf von ihnen wurden wenige Wochen später in die Vernichtungsanstalt Hadamar transportiert, wo vier Frauen sofort ermordet wurden.",
+    "Insgesamt fielen 54 Anstaltsbewohner aus Krautheim dem organisierten Mord an Kranken und Behinderten während der NS-Zeit zum Opfer. Die Betroffenen stammten überwiegend aus Nordbaden. Eine Frau und ein Mann überlebten die Mordaktion nur, weil sie schweizerischer Nationalität waren. Die Namen der meisten Opfer konnten erst in jüngster Zeit durch akribische Quellenrecherchen identifiziert und so dem Vergessen entrissen werden. Diese Forschungen trugen erheblich zur Förderung der regionalen Gedenkkultur rund um die ehemalige Kreispflegeanstalt Krautheim bei.",
+    "Im Oktober 2019 wurde auf einem Grünstreifen vor dem Altenheim ein Gedenkstein für die Opfer errichtet.",
+  ],
   images: [
     { src: ""}
   ],
-  chartData: [3, 4, 2, 1, 0, 0, 2, 3, 4, 0, 0, 0]
+  chartData: [3, 4, 2, 1, 0, 0, 2, 3, 4, 0, 0, 0],
+  description2: [
+    "Quellen:",
+    "https://storymaps.arcgis.com/stories/ebbb90afed964a5a83fda88e2c16bbde",
+    "Kreutzer, Thomas. 54 Anstaltsbewohner fielen der NS-“Euthanasie“ zum Opfer, in: Spuren Wege Erinnerung. Orte des Gedenkens an die Opfer des Nationalsozialismus im Hohenlohekreis. Eine Dokumentation. S.32, 2021.",
+  ],
 },
 {
-  name: "Heil- und Pflegeanstalt Rastatt",
+  name: "Pflegeanstalt Rastatt, genannt „Schrecks Anstalt“",
   coords: [48.84992, 8.20985],
   value: 22,
+  description: "Die Pflegeanstalt Rastatt wurde erst im Jahr 1934 – ausschließlich für dauerhaft pflegebedürftigen - gegründet. Dies erschien nötig, da die bereits vorhandenen Anstalten in Baden überlastet waren. Das Inventar wurde anderen Institutionen entnommen; es musste schnell gehen und darüber hinaus sollte so viel Geld wie möglich zum Aufbau und bei dem Betrieb der Anstalt gespart werden. Auch weil die Patient*innen als unheilbar galten, wurden so gut wie keine Therapien angewendet. Im September verbrachte man die insgesamt 579 Patient*innen in die noch schlechtere Zwiefalter Heil- und Pflegeanstalt. Ab Februar 1940 deportierte man sie im Rahmen der T 4 Aktion in die Heil- und Pflegeanstalt Grafeneck, man führte sie dem sicheren Tod zu. Das Personal wurde auf andere Einrichtungen verteilt und den Anstaltsdirektor Dr. Arthur Schreck (1878-1963) versetzte man nach Wiesloch, wo er Stellvertreter des Direktors wurde.",
   chartData: [0, 2, 2, 6, 4, 5, 3, 0, 0, 0, 0, 0],
   images: [
-    { src: ""}
+    {
+        src: "Bilder/Festungslazarett[4].jpeg",
+        caption: "Das ursprüngliche Festungslazarett, errichtet im Jahr 1848, wurde im Jahr 1934 in die Pflegeanstalt Rastatt umgewandelt. Quelle: Stadtarchiv Rastatt",
+    },
+    { 
+        src: "Bilder/484-2024 Zentralarchiv_F7_2558[4].jpeg",
+        caption: "Heute ist in dem Gebäude das Zentrale Fundarchiv des Archäologischen Landesmuseum Baden-Württemberg untergebracht. Quelle: Zentralarchiv F7 2558",
+    },
+  ],
+  description2: [
+    "Quelle:",
+    "Archivportal-d, Pflegeanstalt Rastatt (Bestand), Fabian Beller: Aktenabgabe vom Psychiatrischen Zentrum Nordbaden (PZN) in Wiesloch: http://www.archivportal-d.de/item/EDBPBJMSBNO34CVIW2DWFFMZRVIG5ZXG",
   ],
 },
 {
