@@ -203,7 +203,7 @@ var locations = [
   ],
   images: [
     {
-        src: "Bilder/StA S-A 8 Hoffer_Haupthof und Tor, 1932[6].jpg",
+        src: "Bilder/Illenau_1932.jpg",
         caption: "Zu sehen sind Haupthof und Tor der Badischen Heil- und Pflegeanstalt Illenau im Jahr 1932. Quelle: StA S-A 8 Hoffer",
     },
     {
@@ -232,7 +232,14 @@ var locations = [
     "Im Oktober 2019 wurde auf einem Grünstreifen vor dem Altenheim ein Gedenkstein für die Opfer errichtet.",
   ],
   images: [
-    { src: ""}
+    { 
+        src: "Bilder/Kreispflegeanstalt Krautheim Seite 2.jpeg",
+        caption: "Die 70 qm große Küche befand sich im Erdgeschoss des Haupthauses, angrenzend richtete man einen Spülraum und einen Gemüseputzraum ein. Quelle: Info-Broschüre der KPA, ca. 1932, Seite 2, Abbildung 1, Bild „KPA Krautheim“: Signatur: SO 1, Bü 415",
+    },
+    {
+        src: "Bilder/Lageplan_1930.jpg",
+        caption: "Lageplan für die Kreispflegeanstalt aus dem Jahr 1930. Quelle: Kreisarchiv Hohenlohekreis, Bild „Lageplan 1930“: Signatur: B 510, KB 1.14",
+    },
   ],
   chartData: [3, 4, 2, 1, 0, 0, 2, 3, 4, 0, 0, 0],
   description2: [
