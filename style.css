@@ -42,6 +42,12 @@ html, body {
     color: #333;
 }
 
+.popup-description2 a {
+    color: #9C4A07;
+    text-decoration: underline;
+    word-break: break-word;
+}
+
 .leaflet-popup-content {
     min-width: 400px;
     max-width: 550px;

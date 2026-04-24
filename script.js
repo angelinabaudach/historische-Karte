@@ -380,13 +380,21 @@ locations.forEach(function(location) {
     ` : ""}
 
     ${location.description2
-        ? Array.isArray(location.description2)
-            ? location.description2.map(p => `<p class="popup-description2">${p}</p>`).join("")
-            : `<p class="popup-description2">${location.description2}</p>`
-        : ""
-    }
-    </div>
-    `;
+    ? Array.isArray(location.description2)
+        ? location.description2.map(p => {
+            if (p.startsWith("http")) {
+                return `<p class="popup-description2">
+                            <a href="${p}" target="_blank">${p}</a>
+                        </p>`;
+            } else {
+                return `<p class="popup-description2">${p}</p>`;
+            }
+        }).join("")
+        : `<p class="popup-description2">${location.description2}</p>`
+    : ""
+}
+</div>
+`;
 
     var radius = getRadius(location.value);
 
