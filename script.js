@@ -267,13 +267,28 @@ var locations = [
   ],
 },
 {
-  name: "Heil- und Pflegeanstalt Sinsheim",
+  name: "Kreispflegeanstalt Sinsheim",
   coords: [49.25416, 8.87942],
   value: 23,
+  description: [
+    "Die Entstehung der Kreispflegeanstalt Sinsheim geht auf eine Entscheidung des Kreisausschusses des damaligen Kreises Heidelberg zurück, zu dessen Zuständigkeit auch der Amtsbezirk Sinsheim gehörte. Bereits seit den 1860er-Jahren befasste sich der Kreis mit der Planung einer Einrichtung zur Versorgung chronisch Kranker und Pflegebedürftiger. Einen konkreten Impuls erhielt dieses Vorhaben durch den Sinsheimer Bezirksarzt Medizinalrat, der das ehemalige Franziskanerkloster in Sinsheim als geeigneten Standort vorschlug.",
+    "Bevor das Anwesen 1839 in den Besitz des großherzoglich badischen Domänenverwalters Philipp Anton Wacker  übergegangen war, waren die Gebäude bereits wirtschaftlich als Brauerei mit einem Gastwirtschaftsbetrieb genutzt worden. Im Jahr 1875 erwarb der Kreisverband Heidelberg das Anwesen von den damaligen Eigentümern, Johann und Johanna Betz.",
+    "In den folgenden Jahren wurde die Einrichtung weiterentwickelt. 1877 übernahm Stadtpfarrer Spath den Vorsitz eines Sonderausschusses, der den Aufbau der Einrichtung begleitete. In diesem Zusammenhang setzte sich auch die Bezeichnung „Kreispflegeanstalt“ durch, die die Funktion der Institution präziser beschreiben sollte als die zuvor verwendete Bezeichnung einer „Siechenanstalt“. Bereits 1876 war das ehemalige Kloster in eine Pflegeeinrichtung umgewandelt worden.",
+    "Im Jahr 1905 erhielt die Kreispflegeanstalt durch Neubaumaßnahmen ihre bekannte 'Gestalt', und die Klostergebäude wurden abgerissen. Wie viele vergleichbare Einrichtungen war auch die Kreispflegeanstalt Sinsheim in der Zeit des Nationalsozialismus in die Medizinverbrechen des Regimes eingebunden. Im Rahmen der Euthanasie-Krankenmorde wurden am 15. Mai 1940 die ersten 14 Bewohner in die Tötungsanstalt Grafeneck deportiert und dort in einer Gaskammer getötet. Insgesamt wurden 231 Menschen aus der Kreispflegeanstalt Sinsheim nach Grafeneck deportiert und dort ermordet.",
+    "Nach dem Ende des Zweiten Weltkriegs änderte sich die Nutzung der Einrichtung vorübergehend grundlegend. Die Kreispflegeanstalt diente nun als Durchgangslager für Flüchtlinge und Vertriebene.",
+    "In den 1960er-Jahren begann eine Phase umfassender Modernisierung, die 1971 abgeschlossen werden konnten. Das heutige Betreuungszentrum Sinsheim geht aus dem Kreispflegeheim Sinsheim hervor, das seinerseits die Nachfolge der Kreispflegeanstalt Sinsheim angetreten hatte. Im Zuge der Integration in die Gesundheitszentren Rhein-Neckar gGmbH erhielt die Einrichtung schließlich die Bezeichnung GRN-Betreuungszentrum Sinsheim.",
+  ],
   images: [
     { src: ""}
   ],
-  chartData: [1, 5, 3, 8, 0, 5, 1, 0, 0, 0, 0, 0]
+  chartData: [1, 5, 3, 8, 0, 5, 1, 0, 0, 0, 0, 0],
+  description2: [
+    "Quellen:",
+    "Herrmann, Paul. Kreispflegeanstalt Sinsheim. Geschichte, Erneuerung und Erweiterung, Sinsheim, 1972.",
+    "Rhein-Neckar-Zeitung, Sinsheimer Nachrichten. Die Kreispflege war damals das Aufnahmelager, Ausgabe 25.7.2022.",
+    "Kraichgau-Realschule, Gedenkfeier für die Opfer des Euthanasieprograms am 15. Mai 1940, https://kraichgau-realschule.de/?p=12162, aufgerufen am 29.4.2026",
+    "leobw, Landeskunde entdecken online, Franziskanerkloster Sinsheim, https://www.leo-bw.de/web/guest/detail-gis/-/Detail/details/DOKUMENT/labw_kloester/831/Franziskanerkloster+Sinsheim, aufgerufen am 29.4.2026",
+  ]
 },
 {
   name: "Kreispflegeheim Weinheim",
