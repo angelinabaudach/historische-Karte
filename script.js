@@ -279,7 +279,14 @@ var locations = [
     "In den 1960er-Jahren begann eine Phase umfassender Modernisierung, die 1971 abgeschlossen werden konnten. Das heutige Betreuungszentrum Sinsheim geht aus dem Kreispflegeheim Sinsheim hervor, das seinerseits die Nachfolge der Kreispflegeanstalt Sinsheim angetreten hatte. Im Zuge der Integration in die Gesundheitszentren Rhein-Neckar gGmbH erhielt die Einrichtung schließlich die Bezeichnung GRN-Betreuungszentrum Sinsheim.",
   ],
   images: [
-    { src: ""}
+    { 
+        src: "Bilder/Kreispflege_Sinsheim_3.jpg",
+        caption: "Die historische Postkarte zeigt die Kreispflegeanstalt wahrscheinlich von der Vorderfront. Die Zeit der Aufnahme ist unbekannt. Quelle: Stadtarchiv Sinsheim, Signatur SNH K 130",
+    },
+    {
+        src: "Bilder/Kreispflege_Sinsheim_4.jpg",
+        caption: "Das Foto zeigt die Anstalt mutmaßlich von der rückwärtigen Seite. Die Zeit der Aufnahme ist unbekannt. Quelle: Stadtarchiv Sinsheim, Signatur SNH K 130",
+    },
   ],
   chartData: [1, 5, 3, 8, 0, 5, 1, 0, 0, 0, 0, 0],
   description2: [
